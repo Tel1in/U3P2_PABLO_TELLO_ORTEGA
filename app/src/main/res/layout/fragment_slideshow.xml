@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE MASCOTA"
+        android:id="@+id/nombreM" />
+
+    <EditText
+        android:id="@+id/raza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RAZA MASCOTA" />
+
+    <EditText
+        android:id="@+id/curp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CURP ENCARGADO"
+        android:focusable="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR POR NOMBRE"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnNombre"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR POR CURP"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnCurp2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR POR RAZA"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnRaza"
+        />
+
+
+    <Button
+        android:id="@+id/btnInser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:clickable="false"
+        android:text="INSERTAR" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnCurp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:text="VER NOMBRE PROPIETARIOS " />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
